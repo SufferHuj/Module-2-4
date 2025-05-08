@@ -101,3 +101,4 @@ class TestBooking:
 
         response = auth_session.put(f"{base_url}/booking/{booking_id}", json={})
         assert response.status_code in (400, 500), "Ожидался статус ошибки на пустой put"
+

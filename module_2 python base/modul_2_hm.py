@@ -75,11 +75,11 @@
 #     print(f"Квадрат числа {n} = {n ** 2}")
 #
 # #4.2
-n = 10
-total = 0
-for n in range(1, n + 1): # n + 1 потому что в диапазоне не учитывается конечное значение
-    total += n
-print(total)
+# n = 10
+# total = 0
+# for n in range(1, n + 1): # n + 1 потому что в диапазоне не учитывается конечное значение
+#     total += n
+# print(total)
 #
 # # без цикла
 # n = 10
@@ -164,3 +164,11 @@ print(total)
 #
 # print(f"{h} час {m} минута {s} секунда")
 
+# dict_a = {'a': 1, 'b': 2}
+# list_b = []
+#
+# for i in range(10):
+#     dict_a['a'] = i
+#     list_b.append(dict_a)
+#
+# print(list_b)
